@@ -12,7 +12,7 @@ public class App {
         int choice;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("####           Меню приложения                  ####");
+        System.out.println("\n####           Меню приложения                  ####");
         System.out.println("####        Сделайте выбор цифрой               ####");
         System.out.println("####            1. Погода                       ####");
         System.out.println("####            2. Чат с ИИ                     ####");
@@ -25,7 +25,7 @@ public class App {
             System.out.print(">");}
 
         choice = sc.nextInt();
-        System.out.println("Выбран пункт: " + choice +".");
+        System.out.println("\nВыбран пункт: " + choice +".\n");
 
         switch (choice){
             case (1):
